@@ -45,5 +45,8 @@ switch (tipoDeOperacion) {
         resultado = "Error: Opción de operación no válida.";
 }
 
-// Muestra el resultado (o el mensaje de error) al usuario
-console.log("El total es: " + resultado);
+// Informa al usuario:
+alert("El total es: " + resultado);
+
+// Deja un registro en la consola para el desarrollador:
+console.log("Operación completada. Resultado: " + resultado);
